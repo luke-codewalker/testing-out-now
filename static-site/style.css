@@ -1,0 +1,12 @@
+body {
+  width: 50%;
+  margin: 5rem auto;
+}
+
+.date {
+  font-size: 2rem;
+}
+
+footer {
+  margin-top: 10rem;
+}
