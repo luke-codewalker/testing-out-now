@@ -4,9 +4,9 @@ This repository contains two tiny projects I made over my morning coffee to test
 
 ## node-app
 
-`node-app` is a really simple [NodeJS](https://nodejs.org/) app utilizing [micro](https://www.npmjs.com/package/micro) that just gives you back a random UNIX timestamp every time you call it.
+`node-app` is a really simple [NodeJS](https://nodejs.org/) app utilizing [micro](https://www.npmjs.com/package/micro). It just gives you back a random UNIX timestamp every time you call it.
 
-To run it locally:
+To run it locally open a terminal in the root of this project and type:
 
     cd node-app
     npm i && npm start
@@ -22,11 +22,11 @@ Yes, that's how easy it is! Granted you have downloaded the `now` CLI and regist
 
 ## static-site
 
-I also wanted to try out deploying a static website to [NOW](https://zeit.co/now) so I whipped up this page. It even makes use of our random date microservice! You can check it out here (random-date.now.sh)[https://random-date.now.sh].
+I also wanted to try out deploying a static website to [NOW](https://zeit.co/now) so I whipped up this page. It even makes use of our random date microservice! You can check it out here: [random-date.now.sh](https://random-date.now.sh).
 
-You can also view it locally. Just spin up the server as described above and then for example:
+You can also view it locally. Just spin up the server as described above and then (for example using `python`):
 
-    cd static-site
+    cd ../static-site
     python -m http.server
 
 Or use any other tool you like for locally hosting static sites.
